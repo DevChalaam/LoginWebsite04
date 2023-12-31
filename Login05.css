@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    margin-top: 110px;
+}
+
+.main-container {
+    border: #eee 1px solid;
+    width: 500px;
+    height: 530px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.text-signin {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.username-input, .email-input, .passWord-input, .cfpassword-input {
+    width: 370px;
+    height: 45px;
+    margin-left: 60px;
+    border-radius: 10px;
+    outline: none;
+    border: #eee 1px solid;
+    cursor: pointer;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 15px;
+    transition: 0.4s;
+}
+
+.username-input:hover, .email-input:hover, .passWord-input:hover, .cfpassword-input:hover {
+    box-shadow: #000000 4px 4px 4px 0;
+}
+
+.icon {
+    font-size: 23px;
+    position: relative;
+    right: 2.6rem;
+    top: 5px;
+    cursor: pointer;
+}
+
+.link-forgot {
+    position: relative;
+    top: 15px;
+    left: 20rem;
+    font-size: 15px;
+    text-decoration: none;
+    color: #9e9898;
+    transition: 0.3s;
+}
+
+.link-forgot:hover {
+    color: #0800ff;
+}
+
+.button-btn {
+    border: #000000 1px solid;
+    margin-top: 40px;
+    width: 370px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 4rem;
+    background-color: #000000;
+    color: #eee;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-btn:hover {
+    border: #9e9898 1px solid;
+    background-color: #9e9898;
+    color: #000000;
+}
+
+.text-notaccount {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    left: 6rem;
+}
+
+.link-signup {
+    color: #9e9898;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.link-signup:hover {
+    color: #0800ff;
+}
+
+@media screen and (max-width: 375px){
+    .main-container {
+        width: 370px;
+    }
+
+    .username-input, .email-input, .passWord-input, .cfpassword-input {
+        width: 330px;
+        margin-left: 20px;
+    }
+
+    .icon {
+        left: 20rem;
+        top: -35px;
+    }
+    
+    .link-forgot {
+        left: 13.5rem;
+        top: -10px;
+    }
+
+    .button-btn {
+        width: 300px;
+        margin-left: 2.3rem;
+        margin-top: 7px;
+    }
+
+    .text-notaccount {
+        left: 4rem;
+        font-size: 12px;
+    }
+
+    .link-signup {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .main-container {
+        width: 400px;
+    }
+
+    .text-signin {
+        font-size: 23px;
+    }
+
+    .username-input, .email-input, .passWord-input {
+        width: 350px;
+        margin-left: 20px;
+    }
+    
+    .cfpassword-input {
+        width: 350px;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+
+    .icon {
+        left: 21rem;
+        top: -34px;
+    }
+
+    .link-forgot {
+        left: 15rem;
+        top: -5px;
+    }
+
+    .button-btn {
+        margin-left: 55px;
+        width: 300px;
+    }
+
+    .text-notaccount {
+        font-size: 13px;
+        left: 4rem;
+    }
+
+    .link-signup {
+        font-size: 15px;
+    }
+}

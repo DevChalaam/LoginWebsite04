@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login05</title>
+    <link rel="stylesheet" href="/css/Login05.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="main-container">
+        <p class="text-signin">SIGN IN</p><br>
+
+        <form method="get" id="formLogin">
+            <input type="text" class="username-input" id="username" placeholder="Example : admin" required><br>
+            <input type="email" class="email-input" id="email" placeholder="Example : admin.littlesunflower@gmail.com" required><br>
+            <input type="password" class="passWord-input" id="passwd" placeholder="Example : admin.littlesunflower" required>
+            <i class='bx bx-low-vision icon' id="showPassWD1"></i><br>
+            <input type="password" class="cfpassword-input" id="cfpasswd" placeholder="Example : admin.littlesunflower" required>
+            <i class='bx bx-low-vision icon' id="showPassWD2"></i><br>
+            <a href="#" class="link-forgot">Forgot password</a><br>
+            <button type="submit" class="button-btn" id="btn">SIGNIN</button><br>
+            <span class="text-notaccount"> I'am don't have an account? <a href="#" class="link-signup">Sign Up</a></span>
+        </form>
+    </div>
+
+    <script src="/js/Login05.js"></script>
+</body>
+</html>
